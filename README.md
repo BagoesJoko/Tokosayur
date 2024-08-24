@@ -21,46 +21,34 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Installation (English)
+1. If you want to use ressend for email authentication, edit .env and paste it in the RESEND_KEY section. if you use gmail smtp, open mail.php in config then edit 'default' to env('MAIL_MAILER', 'log')
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. After you migrate the database, then register your account, then edit your account role to 1 in the database, to get admin page access.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+3. For payment gateway simulation, you can create a <a href="https://midtrans.com" title="text">Midtrans</a> account to get an API key, then edit the Midtrans server key and Midtrans client key.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- cd TokoSayur
+- php artisan migration
+- php artisan serve
+- npm run dev
 
-## Laravel Sponsors
+This web application is still not perfect, please forgive me if there are any shortcomings.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## INSTALASI (Indonesia)
 
-### Premium Partners
+1. Jika Anda ingin menggunakan resend untuk autentikasi email, edit .env dan tempel di bagian RESEND_KEY. Jika Anda menggunakan gmail smtp, buka mail.php di config lalu edit 'default' menjadi env('MAIL_MAILER', 'log') 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+2. Setelah Anda melakukan migrasi database, lalu daftarkan akun Anda, lalu edit role akun Anda menjadi 1 di database, untuk mendapatkan akses halaman admin.
 
-## Contributing
+3. Untuk simulasi payment gateway, Anda dapat membuat akun <a href="https://midtrans.com" title="text">Midtrans</a> untuk mendapatkan kunci API, lalu edit kunci server Midtrans dan kunci klien Midtrans.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- cd TokoSayur
+- php artisan migration
+- php artisan serve
+- npm run dev
 
-## Code of Conduct
+Aplikasi web ini masih belum sempurna, mohon maaf jika ada kekurangan.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## PREVIEW 
+<a href="https://tokosayur.69dev.id">Toko Sayur</a>
