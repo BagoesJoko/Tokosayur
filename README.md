@@ -29,7 +29,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 3. For payment gateway simulation, you can create a <a href="https://midtrans.com" title="text">Midtrans</a> account to get an API key, then edit the Midtrans server key and Midtrans client key.
 
 - cd TokoSayur
-- php artisan migration
+- php artisan migrate
 - php artisan serve
 - npm run dev
 
@@ -44,7 +44,7 @@ This web application is still not perfect, please forgive me if there are any sh
 3. Untuk simulasi payment gateway, Anda dapat membuat akun <a href="https://midtrans.com" title="text">Midtrans</a> untuk mendapatkan kunci API, lalu edit kunci server Midtrans dan kunci klien Midtrans.
 
 - cd TokoSayur
-- php artisan migration
+- php artisan migrate
 - php artisan serve
 - npm run dev
 
